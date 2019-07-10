@@ -1,0 +1,7 @@
+baseURL = "https://notamonadtutorial.com/"
+languageCode = "en-us"
+title = "This is not a Monad Tutorial"
+theme = "tale"
+
+[Author]
+    name = "unbalancedparentheses"
