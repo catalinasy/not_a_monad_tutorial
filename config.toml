@@ -1,4 +1,4 @@
-baseURL = "https://notamonadtutorial.com/"
+baseURL = ""
 languageCode = "en-us"
 title = "This is not a Monad Tutorial"
 theme = "tale"
