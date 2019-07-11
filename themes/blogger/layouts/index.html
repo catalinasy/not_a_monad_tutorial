@@ -1,0 +1,16 @@
+{{ partial "head.html" .}}
+{{ partial "header.html" .}}
+{{range .Site.RegularPages}}
+    <div class="item_wrapper">
+        <div class="date">{{ dateFormat "Jan 2006" .Date}}</div>
+        <p class="title">{{ .Title}}</p>
+        <div class="details">
+        <span>posted on </span>
+        {{ dateFormat "January 2, 2006" .Date }}
+    </div>
+        <p class="summary">{{ .Summary }}</p>
+        <p class="continue_reading"><a href="{{ .Permalink}}">Continue Reading</a></p>
+    </div>
+    {{ end }}
+{{ partial "footer.html" .}}
+
