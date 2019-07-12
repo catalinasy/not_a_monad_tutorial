@@ -9,8 +9,8 @@
     <title>{{ .Title }} - {{ .Site.Title}}</title>
     {{ .Hugo.Generator }}
 </head>
+{{ partial "header.html" .}}
 {{ range .Data.Pages }}
-
 <div class="item_wrapper">
         <div class="date">{{ dateFormat "Jan 2006" .Date}}</div>
         <p class="title"><a href="{{ .Permalink}}">{{ .Title}}</a></p>
@@ -23,4 +23,6 @@
         <p class="continue_reading"><a href="{{ .Permalink}}">Continue Reading</a></p>
     </div>
 {{ end }}
+
+{{ partial "footer.html" .}}
 

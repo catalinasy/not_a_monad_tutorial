@@ -6,7 +6,8 @@ author: unbalancedparentheses
 ---
 
 ![](https://cdn-images-1.medium.com/max/600/1*Zn-cHY_cpFVxmhkIAwhYzw.png)
->A software company from another dimension
+
+A software company from another dimension
 
 This time I decided to do something uncommon. I have asked Martina Cantaro, a psychologist that works for our company Lambdaclass, to write about the work she is doing training young developers. I hope you find it useful.
 ******
