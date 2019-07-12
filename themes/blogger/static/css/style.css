@@ -1,26 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
 body {
   background-color: rgb(248, 247, 242);
-  font-family: sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   margin: 0 25%;
   font-size: 18px;
 }
 p {
   margin: 0;
 }
+a:hover{
+  background: rgb(235, 195, 109);
+}
+a{
+  color: rgb(165, 161, 161);
+}
 .header {
   margin: 2% 0;
   color: rgb(165, 161, 161);
-  font-family: "Poppins", sans-serif;
 }
-
-.header p {
-  margin: 0;
-  font-size: 25px;
-}
-
 .header a {
-  text-decoration: none;
   color: #ccc;
+}
+#author{
+  margin: 0;
+  font-size: 30px;
+  color: rgb(138, 135, 135)
 }
 .bar {
   color: #ccc;
@@ -33,31 +38,30 @@ p {
   margin-top: 5%;
 }
 .title {
-  font-family: "Poppins", sans-serif;
-  text-decoration: none;
-  color: black;
   font-weight: bold;
+  margin: 0;
+}
+.title a{
+    color: black;
 }
 .details {
   color: #ccc;
   font-size: 15px;
-  margin-top: 2%;
 }
 .date {
   float: left;
   margin: 1% 0 0 -15%;
   font-size: 15px;
   color: #ccc;
+  font-style: italic;
 }
 .summary {
   margin-top: 2%;
 }
-.item_wrapper a {
+.continue_reading {
   color: rgb(170, 169, 169);
   font-size: 15px;
-}
-.continue_reading {
-  margin-top: 5%;
+  margin-top: 3%;
 }
 h1{
     font-size: 25px;
@@ -66,8 +70,13 @@ main p{
     margin: 2% 0;
 }
 main a{
-    text-decoration: none;
+
     color: grey;
+}
+img{
+  box-sizing: border-box;
+  margin: 5% 0;
+  max-width: 100%
 }
 .footer{
     margin: 10% 0;
@@ -76,4 +85,13 @@ main a{
     font-style: italic;
     display: flex;
     justify-content: center;
+}
+
+@media (max-width: 800px){
+  img{
+    display: none;
+  }
+  body{
+    margin:0 5%;
+  }
 }

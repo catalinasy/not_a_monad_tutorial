@@ -3,6 +3,7 @@ title: How to earn your Macroeconomics and Finance white belt (as a software dev
 type: docs
 Date: 2019-03-07
 author: unbalancedparentheses
+tags: [finance, learning]
 ---
 
 ![](https://cdn-images-1.medium.com/max/716/1*DqV2jwq55q04VQDnm1lP-A.jpeg)

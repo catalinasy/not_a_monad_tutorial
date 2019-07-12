@@ -10,5 +10,6 @@ theme = "Blogger"
     twitter = "http://twitter.com/unbalancedparen/"
     contact = ""
 
-[Params]
-    css = ["custom.css"]
+[taxonomies]
+  category = "categories"
+  tag = "tags"

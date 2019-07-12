@@ -3,6 +3,7 @@ title: Become an Erlang Cowboy and tame the Wild Wild Web — Part I
 type: docs
 Date: 2014-06-18
 author: unbalancedparentheses
+tags: [earlang, learning]
 ---
 #### Erlang: From zero to coding a commenting system
 
