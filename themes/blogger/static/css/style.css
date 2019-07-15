@@ -5,54 +5,54 @@ body {
   font-family: "equity-text";
   margin: 1em 15% 2em 20%;
   font-size: 20px;
-  line-height: 1.5em
+  line-height: 1.5em;
 }
-a:hover{
+a:hover {
   background: rgb(245, 245, 30);
 }
-a{
+a {
   color: rgb(36, 35, 35);
   text-decoration: none;
 }
-.hello a{
+.hello a {
   background: rgb(245, 245, 30);
 }
-.hello{
+.hello {
   font-size: 36px;
   line-height: 46px;
 }
-.item_wrapper{
+.item_wrapper {
   list-style: none;
   display: flex;
 }
-.item_wrapper p{
-  margin:1%;
+.item_wrapper p {
+  margin: 1%;
   width: 80%;
 }
 .title {
   font-size: 22px;
   align-self: flex-end;
 }
-.title a{
-    color: black;
-    text-decoration: none;
+.title a {
+  color: black;
+  text-decoration: none;
 }
-.header{
+.header {
   font-size: 30px;
   margin-bottom: 5%;
   margin-top: 2%;
   font-family: "advocate-c53";
 }
-.header a{
-  background:rgb(245, 245, 30);
+.header a {
+  background: rgb(245, 245, 30);
 }
-.header a:hover{
+.header a:hover {
   background: white;
 }
 .details {
-  color: rgb(155, 135, 135);
+  color: rgb(153, 145, 145);
   font-size: 15px;
-  margin:0;
+  margin: 0;
 }
 .date {
   float: left;
@@ -61,34 +61,35 @@ a{
   padding-top: 1%;
   width: 12%;
 }
-h1{
-    font-size: 30px;
+h1 {
+  font-size: 40px;
+  line-height: 1.2em;
 }
-strong{
+strong {
   font-size: 30px;
 }
-code{
+code {
   background: rgb(233, 232, 232);
 }
-h3{
+h3 {
   margin: 8% 0;
-  font-size: 30px;
+  font-size: 38px;
   font-weight: bold;
 }
-main p{
-    margin: 2% 0;
+main p {
+  margin: 2% 0;
 }
-ul{
+ul {
   padding: 0;
 }
-main a{
+main a {
   text-decoration: underline;
 }
-img{
+img {
   box-sizing: border-box;
-  max-width: 100%
+  max-width: 100%;
 }
-.footer{
+.footer {
   display: flex;
   flex-direction: column;
   margin-top: 5%;
@@ -96,20 +97,20 @@ img{
   border-top: rgb(230, 223, 223) 3px solid;
   font-family: "advocate-c53";
 }
-.footer p{
+.footer p {
   margin: 0;
 }
-.footer a{
+.footer a {
   width: 40%;
 }
-@media (max-width: 800px){
-  img{
+@media (max-width: 800px) {
+  img {
     display: none;
   }
-  body{
-    margin:5%;
+  body {
+    margin: 5%;
   }
-  .date{
+  .date {
     display: none;
   }
 }
