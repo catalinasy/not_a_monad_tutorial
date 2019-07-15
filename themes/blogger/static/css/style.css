@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap');
+@import "./fonts.css";
 
 body {
   background-color: rgb(255, 255, 255);
-  font-family: 'DM Serif Display', serif;
+  font-family: "equity-text";
   margin: 0 10%;
   font-size: 18px;
 }
@@ -19,6 +19,7 @@ a{
 .hello{
   font-size: 30px;
   margin: 5%;
+  font-weight: bold;
 }
 .item_wrapper{
   list-style: none;
@@ -41,6 +42,7 @@ a{
   font-size: 30px;
   margin-bottom: 5%;
   margin-top: 2%;
+  font-family: "advocate-c53";
 }
 .header a{
   background:rgb(245, 245, 30);
@@ -79,6 +81,7 @@ img{
   margin-top: 5%;
   padding: 2%;
   border-top: rgb(230, 223, 223) 3px solid;
+  font-family: "advocate-c53";
 }
 .footer p{
   margin: 0;
