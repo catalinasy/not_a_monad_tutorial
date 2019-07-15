@@ -65,7 +65,7 @@ h1{
     font-size: 30px;
 }
 strong{
-  font-size: 25px;
+  font-size: 30px;
 }
 code{
   background: rgb(233, 232, 232);
@@ -98,6 +98,9 @@ img{
 }
 .footer p{
   margin: 0;
+}
+.footer a{
+  width: 40%;
 }
 @media (max-width: 800px){
   img{

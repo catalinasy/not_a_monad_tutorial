@@ -1,7 +1,7 @@
 ---
 title: Interview with Robert Virding, creator of Lisp Flavored Erlang, and alien technology masterpiece
 type: docs
-Date: 2015-02-29
+Date: 2016-02-29
 author: unbalancedparentheses
 ---
 ![](https://cdn-images-1.medium.com/max/800/1*0_N8_5MqdROjW5duRb6Dpw.png)
