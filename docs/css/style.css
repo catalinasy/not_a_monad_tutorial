@@ -52,6 +52,7 @@ a{
 .details {
   color: rgb(155, 135, 135);
   font-size: 15px;
+  margin:0;
 }
 .date {
   float: left;
