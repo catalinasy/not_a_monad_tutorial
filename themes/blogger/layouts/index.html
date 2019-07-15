@@ -1,17 +1,15 @@
 {{ partial "head.html" .}}
-{{ partial "header.html" .}}
+<div class="hello">
+    <span>Hello, my name is </span><a href="">{{.Site.Author.name }}</a><span> and this is my personal blog. I hope you enjoy!</span>
+
+</div>
+<ul>
 {{range .Site.RegularPages}}
-    <div class="item_wrapper">
+    <li class="item_wrapper">
         <div class="date">{{ dateFormat "Jan 2006" .Date}}</div>
-        <p class="title"><a href="{{ .Permalink}}">{{ .Title}}</a></p>
-        <div class="details">
-        <span>posted on </span>
-        {{ dateFormat "January 2, 2006" .Date }}
-        {{ partial "tags.html" .}}
-    </div>
-        <p class="summary">{{ .Summary }}</p>
-        <p class="continue_reading"><a href="{{ .Permalink}}">Continue Reading</a></p>
-    </div>
+        <p class="title"><a href="{{ .Permalink}}">{{ .Title}}</a></p> 
+    </li>
     {{ end }}
+</ul>
 {{ partial "footer.html" .}}
 
