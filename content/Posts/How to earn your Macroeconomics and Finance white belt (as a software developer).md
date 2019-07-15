@@ -9,7 +9,8 @@ tags: [finance, learning]
 
 I was always interested in economics. However until a few years ago I never really studied finance. Since I decided to change that, I have learnt finance from reading good and bad books, online courses, newspapers, blog posts and online forums and by executing trades. This post sums up and prioritizes the roadmap I recommend taking to learn about finance. Having a deep understanding of macroeconomics is not necessary to learn about finance, even less if you are only looking to manage your own money. However, I highly recommend that you invest some time to understand the basic foundations of how the economy works.
 
-`Andrew Lo, an MIT economist, said that while physics has three laws that explain 99% of the phenomena, finance has 99 laws that explain only 3%`. Not only do we not fully understand how the economy works but also there is an endless debate on how it should function. Everyone has values and an ideology even if they don’t tell you. You should keep that in mind while studying economics. In this roadmap I try to recommend the tools easily available and that are a part of the current economic thought.
+`Andrew Lo, an MIT economist, said that while physics has three laws that explain 99% of the phenomena, finance has 99 laws that explain only 3%`.
+ Not only do we not fully understand how the economy works but also there is an endless debate on how it should function. Everyone has values and an ideology even if they don’t tell you. You should keep that in mind while studying economics. In this roadmap I try to recommend the tools easily available and that are a part of the current economic thought.
 
 If you have any comment, question or critique you can find me at https://twitter.com/unbalancedparen.
 
