@@ -3,8 +3,8 @@
 body {
   background-color: rgb(255, 255, 255);
   font-family: "equity-text";
-  margin: 0 10%;
-  font-size: 18px;
+  margin: 0 18%;
+  font-size: 12px;
 }
 a:hover{
   background: rgb(245, 245, 30);
@@ -17,20 +17,18 @@ a{
   background: rgb(245, 245, 30);
 }
 .hello{
-  font-size: 30px;
+  font-size: 35px;
   margin: 5%;
-  font-weight: bold;
 }
 .item_wrapper{
   list-style: none;
   display: flex;
 }
 .item_wrapper p{
-  margin: 1%;
+  margin:1%;
   width: 80%;
 }
 .title {
-  margin: 2% 0;
   font-size: 25px;
   align-self: flex-end;
 }
@@ -58,8 +56,8 @@ a{
   float: left;
   font-size: 20px;
   font-style: italic;
-  padding-top: 2%;
-  width: 10%;
+  padding-top: 1%;
+  width: 12%;
 }
 h1{
     font-size: 25px;
