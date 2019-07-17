@@ -17,11 +17,11 @@ Also remember that we’ve created a Not a Monad Tutorial newsletter so that you
 Reach me via twitter at [@unbalancedparen](https://twitter.com/unbalancedparen) if you have any comments or interview requests.
 ******
 
-#### **What is MQTT?**
+**What is MQTT?**
 
 MQTT was developed by Andy Stanford-Clarke (IBM) and Arlen Nipper (Cirrus Link) in 1999 as a light-weight protocol efficient in terms of bandwidth and resource usage. In fact one of the original use cases was to send telemetry back from oil-pipelines in remote areas where transmitting data is expensive and service windows are far between. The defining feature of MQTT is that it is a dynamic pub/sub type paradigm where clients need to actively subscribe to a topic to receive messages published to it, thus decoupling producers and consumers completely. MQTT also supports various quality of service levels as well as persisted sessions and a few other handy things.
 
-#### **What is VerneMQ?**
+**What is VerneMQ?**
 
 VerneMQ is an open source (Apache License version 2) MQTT broker supporting the [MQTT 3.1.1](https://docs.oasis-open.org/mqtt/mqtt/v3.1.1/mqtt-v3.1.1.html) standard as well as [MQTT 5.0](https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html) (though, to be fair MQTT 5.0 support has not yet been merged to master at the time of writing, but should be within a few days). Besides being just another MQTT broker, VerneMQ was built from the start to be a distributed MQTT broker with high scalability in mind.
 

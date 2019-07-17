@@ -42,7 +42,7 @@ The client described a problem to you. The fact that they helpfully provided you
 
 The takeaway here is: **your job is to find solutions to problems**. Test your solutions. Make sure you provided a solution for the client’s problem. Their suggestions may help but it’s not their job to spell out the solution for you. Otherwise it would be program-by-numbers! Always remember your goal. Test what you just did to see if you met that goal. If the provided solution didn’t work, try another one. If you don’t have permission to modify something, report back: the client needs to know it couldn’t be fixed by you and why.
 
-### **The truth in your heart**
+### The truth in your heart
 
 I was coaching programmers before an interview with a client. One of the topics we expected would come up was their opinion on different programming languages and tools. We didn’t know the interviewer’s style, so the interview could be more structured or more like a casual conversation on programming. I began with some basic, open-ended questions, like “what programming language do you prefer and why?”.
 

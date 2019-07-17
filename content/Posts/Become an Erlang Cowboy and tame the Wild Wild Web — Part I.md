@@ -5,9 +5,9 @@ Date: 2014-06-18
 author: unbalancedparentheses
 tags: [earlang, learning]
 ---
-#### Erlang: From zero to coding a commenting system
+# Erlang: From zero to coding a commenting system
 
-#### Objective
+## Objective
 
 In the following series of posts we will be creating a commenting system like http://disqus.com/. The system will have normal HTTP/REST handlers but also some SSE and websockets handlers, and background jobs for uploading images to Amazon S3 and sending push notifications to iOS and Android clients via Amazon SNS. At the end of the series, we will connect Erlang and the system with other programming languages for those tasks that can be more difficult to do with Erlang.
 
@@ -21,7 +21,7 @@ At some point you will need to read them if you want to work with Erlang. My obj
 
 If you are interested on moving out of your comfort zone, you have come to the right place. I will do my best to help you learn a new and different way of thinking and designing applications. The length of the journey however will depend entirely on your will. You will have to play, reimplement the same idea in different ways and obviously fight with a new compiler to conquer victory.
 
-**Audience**
+### Audience
 
 This series of posts is oriented towards developers that need to create backend servers that normally use languages and frameworks such as Python and Flask, Twisted, Celery; Ruby and Rails/Sinatra/Grape, Sidekiq/Rescue, Concurrent Ruby with JRuby or Rubinius; Javascript with Nodejs, Express/Koa or Go. I have worked with these technologies for some years, creating HTTP servers that produced JSON consumed by single page applications, iOS and Android clients. I was very comfortable with them. But for the last year I have been using Erlang, and even if I still like Ruby, Python and Javascript, I have no regrets when I say that Erlang is superior, in most areas, for building these types of systems.
 
@@ -29,13 +29,13 @@ My idea is to show how easily and cleanly you can create a distributed, resilien
 
 On this first post I will show you some basic Erlang code so that in next one I can start working on the first handlers of our system.
 
-**Requirements**
+### Requirements
 * Erlang 17 installed. Check [Erlang Solutions downloads page](https://www.erlang-solutions.com/downloads/download-erlang-otp)
 * [Basic http](http://robots.thoughtbot.com/back-to-basics-http-requests) knowledge
 
 Before starting I must say that I am very thankful to my employer —[Inaka](http://inaka.net/) — for letting me write part of these posts during my working hours.
 
-**The ugly duckling?**
+### The ugly duckling?
 Programming languages have a defined set of goals. Most of them put **performance, developer expressiveness or developer productivity at the top of the list**. Let’s see what they have to say about themselves so that we can compare with Erlang’s description:
 
 >_**Rust** is a systems programming language that **runs blazingly fast, prevents almost all crashes**, and eliminates data races. — http://www.rust-lang.org/_
@@ -67,7 +67,7 @@ Erlang seems to be the ugly duckling compared to other programming languages sin
 
 Erlang was created for building fault-tolerant systems. This is natural since Erlang’s roots are in the telecommunication world. Most important design choices of the language were taken to fulfill this requirement. However this does not mean it is not clean or expressive. Let’s take a closer look.
 
-#### Syntax
+## Syntax
 
 [Erlang grammar](https://github.com/erlang/otp/blob/maint/lib/stdlib/src/erl_parse.yrl#L-0-L-535) is simple, it has less than 550 lines of code. That makes erlang syntax easy to understand even if it is different from mainstream languages. But what is more important it is really consistent. Enough talk:
 
@@ -139,7 +139,7 @@ I wanted to add that as you have noticed erlang uses “,”, “;” and “.�
 
 Let’s move onto more important things:
 
-#### Expressiveness
+## Expressiveness
 
 When thinking about Erlang expressiveness the first thing that comes to mind is message passing, process creation and management. Nevertheless pattern matching is a big player too in this field and serves a big purpose in making things easier for receiving messages. Let’s start by showing a simple example of pattern matching before moving on to message passing and process management.
 
@@ -247,7 +247,7 @@ At last I wanted to show a beautiful example of pattern matching where we dissec
 
 Ain’t this a good example of Erlang expressiveness?
 
-**God cannot alter the past, though historians can (and some developers too)— Samuel Butler**
+### God cannot alter the past, though historians can (and some developers too)— Samuel Butler
 
 Variables are either bound or unbound. As you might know values are inmutable in Erlang and once the variable is bound, you can not assign a new value to it. Only one assignment is allowed. You can not modify a variable or a value once it was created.
 
@@ -265,7 +265,7 @@ The output of calling a method in most object oriented languages like for exampl
 
 You might think we are using complicated words for showing off. But as you will see in the following posts thanks to referential transparency and pattern matching we will be able to refactor nested branching implemented with cases into calling small and simple functions. In many languages, inspired by how Java and C++ implemented OOP, the code is so damn interdependent that it is more difficult to refactor it.
 
-#### Processes and Messages
+## Processes and Messages
 
 Functions in functional programming languages are first class citizens. This means that they are not discriminated. They can be assigned to variables, passed as arguments to other functions and returned as values from other functions. Say no to racism. Treat functions as any other type!
 ![](https://cdn-images-1.medium.com/max/800/1*FLmbrG6z0Pt25nbfeG775g.jpeg)
@@ -484,7 +484,7 @@ The Dev process could be running in one server in the US, the PM process in an E
 
 For the following posts we leave error detection and supervision of processes, an area where Erlang really really shines.
 
-#### Moving foward
+## Moving foward
 
 You might be asking yourself why would you want to create processes and send messages between them? Sooner rather than later in relative big project you will need to parallelize some code for example a call to a third party api that is taking too much time for example. That is why you will need to use a concurrency construct. In most programming languages threads, processes or any construct related to concurrency or parallelism is something you rarely use. In most universities it is something you will learn only after your first programming courses. You might have used a ThreadPool in Java or even a pthread in C. But it is not something you generally use or do as often as defining a class, instantiating an object, calling a function or writing a conditional statement. Even if this is changing and we now have really interesting libraries, frameworks and toolkits like Akka for the Java world, Concurrent-Ruby or Celluloid for Ruby or even languages as Clojure that already set a pretty high bar, truth be told concurrency is not the cornerstone of most languages. In Erlang you will use them as frequently as you use an if construct in C, because they are cheap and great for designing your systems.
 

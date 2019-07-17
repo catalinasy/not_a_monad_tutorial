@@ -4,11 +4,11 @@ type: docs
 Date: 2014-03-26
 author: unbalancedparentheses
 ---
-#### The main languages I’ve used this year
+### The main languages I’ve used this year
 
 My last post was a really short mention of the resources I have used to learn and develop my skills in JavaScript and Erlang. On this post I’m going to share with you some thoughts I have regarding Ruby’s present.
 
-### Ruby
+## Ruby
 
 Oh my dear Ruby, son of Lisp, Perl, Eiffel and Smalltalk, time has passed but I think you still are such an amazing creature. Sure, you need to resolve some issues. Everbody does. Some really intelligent doctors have stated that you are sick, that you might be dying, others are not quite sure about that:
 
@@ -19,7 +19,7 @@ Oh my dear Ruby, son of Lisp, Perl, Eiffel and Smalltalk, time has passed but I 
 * [Discussion on Reddit about the Hacker News discussion](http://www.reddit.com/comments/1oi8wd)
 **********
 
-#### Quantitative analysis
+### Quantitative analysis
 
 Let’s start with some graphs. Everybody loves graphs!
 
@@ -39,7 +39,7 @@ According to the [Popularity of Programming Language index](https://cdn-images-1
 
 According to [RedMonk Programming Language Rankings](http://redmonk.com/sogrady/2014/01/22/language-rankings-1-14/), at this moment, Ruby is the seventh most popular language based on correlations between GitHub’s and Stack Overflow’s rankings.
 *******************
-#### Other popularity indicators
+### Other popularity indicators
 
 Let’s move onto other indicators.
 
@@ -83,7 +83,7 @@ Nevertheless, even if Ruby job postings are way down compared to JavaScript, the
 
 These statistics show that even though Ruby is not as popular as it was a few years ago, it’s still a big player.
 *************
-#### Qualitative data
+### Qualitative data
 
 So far, we have seen some numbers. Now it’s a good time to check other indicators that account for liveliness of Ruby.
 
@@ -115,7 +115,7 @@ As we can see, very different pieces of software are crafted with Ruby and Ruby 
 
 ********************
 
-#### Ruby’s hardest problem
+### Ruby’s hardest problem
 
 This doesn’t mean there are no problems on Ruby. Ruby seems to be in the same order of magnitude in terms of speed than [Python, PHP, and Perl](http://www.unlimitednovelty.com/2012/06/ruby-is-faster-than-python-php-and-perl.html) but in general Ruby it is not the fastest kid on the block. Even Matsumoto, its creator, admits it!
 
@@ -157,7 +157,7 @@ Again I think it’s a good idea to hear what Matsumoto thinks:
 >_**Matsumoto**: I don’t see any problem about other implementations just because the diversity is very sound, the healthy things they have. And actually Ruby, the language, is very good for productivity but the programming environment differs from application to application. For example, some clients require very stable and multicore applications on top of the JVM. In that kind of field, JRuby works better than my Ruby, actually, which is called C Ruby. For most of the cases, C Ruby is good for Web applications. But in certain situations, JRuby and maybe Rubinius are a better fit for a particular requirement._
 
 **********
-#### We need a concurrency model!
+### We need a concurrency model!
 
 Despite having real concurrency or being able to run code in many cores, doesn’t mean it’s easy to do so:
 
@@ -271,7 +271,7 @@ I have not mentioned before that Ruby is also an excellent language for creating
 
 Finally, if you need to create a webpage or a REST API, specially when you don’t need real-time stuff, with limited time and money I can’t currently imagine a better replacement for Ruby and Rails.
 ************
-#### Closing words
+### Closing words
 
 I won’t deny that Ruby has lost some momentum. But that doesn’t mean the language is dead. [I think it has matured](http://www.codinghorror.com/blog/2013/03/why-ruby.html) and that it is a great tool to add to your arsenal as a developer.
 

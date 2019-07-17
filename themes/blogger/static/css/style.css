@@ -65,14 +65,14 @@ h1 {
   font-size: 40px;
   line-height: 1.2em;
 }
-strong {
+h3 {
   font-size: 30px;
 }
 code {
   background: rgb(233, 232, 232);
 }
-h3 {
-  margin: 8% 0;
+h2 {
+  margin: 5% 0;
   font-size: 38px;
   font-weight: bold;
 }
