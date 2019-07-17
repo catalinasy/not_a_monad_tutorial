@@ -5,9 +5,13 @@
 </div>
 <ul>
 {{range .Site.RegularPages}}
-    <li class="item_wrapper">
+    <li class="item_wrapper main">
         <div class="date">{{ dateFormat "2006.01.02" .Date}}</div>
-        <p class="title"><a href="{{ .Permalink}}">{{ .Title}}</a></p> 
+        <div class="content">
+            <p class="title"><a href="{{ .Permalink}}">{{ .Title}}</a></p> 
+            <p class="summary">{{ .Summary}}</p>
+            <div class="tag_container">{{ partial "tags.html" .}}</div>
+        </div>      
     </li>
     {{ end }}
 </ul>

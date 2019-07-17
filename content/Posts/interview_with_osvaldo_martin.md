@@ -3,6 +3,7 @@ title: Interview with Osvaldo Martin about Bayesian Analysis with Python
 type: docs
 Date: 2019-02-11
 author: unbalancedparentheses
+tags: [Interviews, Python, Statistics]
 ---
 ![](https://cdn-images-1.medium.com/max/716/1*NpQf9G3ZdnMXLT-QT3sErQ.jpeg)
 
